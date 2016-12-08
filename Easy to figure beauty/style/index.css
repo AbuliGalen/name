@@ -1,0 +1,225 @@
+/*summary页面*/
+.content_fl{
+    width: 40%;
+    position: relative;
+}
+.content_fr{
+    width: 60%;
+    position: relative;
+}
+.content_fl .imgBox img{
+    width: 600px;
+    height: 600px;
+}
+.content_fl .navBox{
+    position: relative;
+    top: -38px;
+    left: 96px;
+}
+.content_fl .navBox li{
+    width: 22%;
+    margin-left: 22%;
+    margin-bottom: 4px;
+    border-radius: 10px;
+    background-color: #D6D6D6;
+    text-align: right;
+    font-weight: 600;
+}
+.content_fl .navBox li a{
+    padding-right: 18px;
+}
+.content_fl .navBox li:hover{
+    background-color: #BE0202;
+}
+
+.content_fr .tit{
+    position: relative;
+    padding-top: 65px;
+}
+.content_fr .tit h3{
+    font-size: 64px;
+}
+.content_fr .tit h5{
+    color: #FF5757;
+    font-size: 35px;
+    margin-top: -18px;
+}
+.content_fr .tit ul{
+    font-size: 10px;
+    color: #d3d2d2;
+    position: absolute;
+    top:154%;
+    left: 46%;
+}
+.content_fr .panel_a{
+ padding-top: 60px;
+}
+.content_fr .panel_img{
+    width: 100%;
+    height: 500px;
+    background: url("../image/position/position_img.gif")no-repeat center center;
+}
+.content_fr .panel_a p{
+    width: 144px;
+    color: #FFFFFF;
+    text-align: center;
+    background-color: #000000;
+    border-radius: 25px 25px 0 0;
+}
+.content_fr .panel_a .info{
+    border-top: 1px solid #8D8D8D;
+    padding-top: 10px;
+}
+
+
+
+/*sercice页面*/
+.info .info_a{
+    width: 62%;
+    padding: 10px 60px;
+}
+.info .info_a h5{
+    font-size: 40px;
+}
+.info .info_a dl{
+    color: #8D8D8D;
+}
+.info .info_a dt{
+    text-indent: 30px;
+    padding-bottom: 30px;
+}
+.info_center{
+    width: 60%;
+    position: relative;
+    left: -6%;
+}
+.contentFl{
+    position: relative;
+}
+.contentFl  h3{
+    font-size: 52px;
+}
+.contentFl h5{
+    color: #FF5757;
+    font-size: 35px;
+    margin-top: -18px;
+}
+.contentFl .site_img{
+    height: 444px;
+    width: 100%;
+    background: url("../image/site.png")no-repeat center center;
+    box-shadow: 1px 3px 5px #8d8d8d;
+    border-radius: 20px;
+    margin-bottom: 26px;
+} 
+.contentFl .item{
+    margin-top: 16px;
+}
+.contentFl .item dt{
+    font-weight: 400;
+    color: #BE0202;
+}
+.contentFl .item img{
+    border: 3px solid #FFFFFF;
+    border-radius: 4px;
+    box-shadow: 2px 4px 1px #bec4dd;
+}
+.contentFl .item dt i{
+    width: 13px;
+    height: 13px;
+    display: inline-block;
+    background: url("../image/service/qq.gif")no-repeat center center;
+    padding-right: 16px;
+}
+
+.contentFr{
+    padding-top: 16%;
+    position: relative;
+    left: 4%;
+}
+.contentFr .item p{
+    font-size: 20px;
+    font-weight: 600;
+}
+.contentFr .item i{
+    width: 13px;
+    height: 13px;
+    display: inline-block;
+    background: url("../image/service/arrowsFl.gif")no-repeat center center;
+    margin-right: 16px;
+}
+.contentFr .item em{
+    width: 13px;
+    height: 13px;
+    display: inline-block;
+    background: url("../image/service/arrowsFr.gif")no-repeat center center;
+    margin-left: 16px;
+}
+.contentFr .item li{
+     width: 100px;
+    line-height: 20px;
+    border-bottom: 1px solid #8D8D8D;
+    margin: 10px 0 0 36px;
+    padding-bottom: 4px;
+}
+.contentFr .item li a{
+    font-weight:bold;
+    color:#000000;
+}
+.contentFr .item li:hover{
+    background-color: #BE0202;
+}
+.contentFr .item li a:hover{
+    color:#ffffff;
+}
+.panel{
+    position: absolute;
+    left: -300px;
+    margin-top: 32px;
+}
+.panel .list li{
+    float: left;
+    width: 130px;
+    text-align: center;
+    margin-bottom: 16px;
+    border: 1px solid #eeecec;
+    border-radius: 26px 26px 0 0;
+    background: -moz-linear-gradient(top, #Fafafa, #F0F0f0);
+    background: -o-linear-gradient(top,#Fafafa, #F0F0f0);
+    background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#Fafafa), to(#F0F0f0));
+}
+.panel .list li a{
+    color: #484848;
+    font-weight: bold;
+}
+.panel .list li a:hover{
+    color: #67BB4D;
+}
+
+/*contact联系页面*/
+.info_list{
+    margin-left: 2%;
+    line-height: 26px;
+}
+.info_list dt{
+    color: #ffffff;
+    width: 114px;
+    text-align: center;
+    background-color: #BE0202;
+    border-radius: 14px;
+}
+.info_list dd{
+    text-indent:28px;
+}
+.font_1{
+    font-size:0.5em;
+    color: #d3d2d2;
+    position: relative;
+    top: 22px;
+    left: 10%;
+}
+.frImg{
+    width: 50%;
+    position:relative;
+    left: 10%;
+}
